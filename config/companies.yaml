@@ -1,0 +1,15 @@
+# Company list for job-poller. One entry per company/board.
+#
+# ats: "greenhouse" or "lever"
+# board: the slug used in that ATS's public API URL, e.g.
+#   greenhouse: https://boards-api.greenhouse.io/v1/boards/{board}/jobs
+#   lever:      https://api.lever.co/v0/postings/{board}
+#
+# The two entries below are known-good public boards used to validate the
+# fetchers end-to-end. Replace with the companies you actually want tracked.
+- name: stripe
+  ats: greenhouse
+  board: stripe
+- name: leverdemo
+  ats: lever
+  board: leverdemo

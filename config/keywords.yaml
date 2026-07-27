@@ -1,0 +1,34 @@
+# Relevance keywords for the v1 keyword-based scorer, derived from
+# Sireesha Kunchala's resume (languages, frameworks, databases, infra/tools
+# actually used professionally). Matches in the job title are weighted
+# higher than matches in the description (see internal/scoring).
+keywords:
+  - JavaScript
+  - TypeScript
+  - Go
+  - Python
+  - PHP
+  - Java
+  - React
+  - Redux
+  - Node.js
+  - REST
+  - microservices
+  - full-stack
+  - MySQL
+  - PostgreSQL
+  - Redis
+  - MongoDB
+  - Firebase
+  - NoSQL
+  - Docker
+  - AWS
+  - EC2
+  - Lambda
+  - CircleCI
+  - GitLab
+  - CI/CD
+  - Kafka
+  - Agile
+  - Scrum
+  - TDD
